@@ -17,10 +17,13 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {} // need to fix
-    const setHigh = () => {}
-    const setMiddle = () => {}
-    const setLow = () => {}
+    const setAll = () => props.setFilter('all') // need to fix
+    const setHigh = () => {
+    }
+    const setMiddle = () => {
+    }
+    const setLow = () => {
+    }
 
     return (
         <div>

@@ -10,13 +10,17 @@
 }
 
 .avatar {
-    width: 15%;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 20%;
     height: 60px;
     margin: 30px 4px 10px 8px
 }
 
 .avatar img {
-    width: 100%;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 80%;
     height: 100%;
     border-radius: 45%;
     border: 2px solid;
@@ -26,7 +30,7 @@
     /*clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0 100%, 5% 90%);*/
     position: relative;
     display: flex;
-    margin: 5px 10px 8px 10px;
+    margin: 10px;
     padding: 10px 10px 10px 25px;
     background-color: #4d5156;
     width: 65%;
