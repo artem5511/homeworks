@@ -3,9 +3,9 @@ import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
-    data: any
+    data: AffairType[]
     setFilter: (filter: FilterType) => void
-    deleteAffairCallback: any
+    deleteAffairCallback: (id: number) => void
 }
 
 function Affairs(props: AffairsPropsType) {
