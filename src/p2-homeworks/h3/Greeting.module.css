@@ -2,6 +2,17 @@
 
 }
 
-.error {
+.error s {
     border: 1px solid red;
+    background: #61dafb;
+    color: red;
+}
+
+.noerror s {
+    border: 1px solid green;
+    background: #61dafb;
+}
+
+.inputerror s {
+    color: #61dafb;
 }

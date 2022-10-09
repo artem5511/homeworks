@@ -1,4 +1,4 @@
-import React, {useState, ChangeEvent, MouseEventHandler} from 'react'
+import React, {useState, ChangeEvent, MouseEvent} from 'react'
 import Greeting from './Greeting'
 import {UserType} from "./HW3";
 import {rename} from "fs";
@@ -6,9 +6,8 @@ import {v1} from "uuid";
 
 type GreetingContainerPropsType = {
     users: UserType[] // need to fix any
-    addUserCallback: (e: string) => void // need to fix any
+    addUserCallback: (name: string) => void // need to fix any
 }
-
 // более простой и понятный для новичков
 // function GreetingContainer(props: GreetingPropsType) {
 
@@ -16,23 +15,26 @@ type GreetingContainerPropsType = {
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<string>('') // need to fix any
-    console.log(name)
-    const [error, setError] = useState<string | null>(null) // need to fix any
+    const [error, setError] = useState<string>('') // need to fix any
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
         setName(e.currentTarget.value)
-        // setError('')// need to fix
+        setError('')// need to fix
     }
 
-    const addUser = (e: MouseEventHandler<HTMLButtonElement>) => {
-        // alert(`Hello  !`)
-        addUserCallback('')
-        setName('')
+    const addUser = () => {
+        const trimmedName = name.trim()
+        if (trimmedName !== '') {
+            addUserCallback(name)
+            alert(`Hello ${name}!`)
+            setName(name)
+        } else {
+            setError('Name is required')
+        }
         // need to fix
     }
 
-
-    const totalUsers = 0 // need to fix
+    const totalUsers = users.length // need to fix
 
     return (
         <Greeting
