@@ -1,18 +1,31 @@
-.someClass {
-
+.greeting {
+    display: flex;
+    align-items: flex-start;
 }
 
-.error s {
-    border: 1px solid red;
-    background: #61dafb;
+.error {
     color: red;
+    height: 20px;
+    margin-right: 15px;
 }
 
-.noerror s {
-    border: 1px solid green;
-    background: #61dafb;
+.inputerror {
+    border: red 3px solid;
 }
 
-.inputerror s {
-    color: #61dafb;
+.noerror {
+    border: 3px solid;
+}
+
+.tU {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+}
+
+.button {
+    margin: 0px 15px;
 }
