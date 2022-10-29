@@ -1,13 +1,13 @@
 {
-  "main.css": "/homeworks/static/css/main.d9226e2b.chunk.css",
-  "main.js": "/homeworks/static/js/main.785339ed.chunk.js",
-  "main.js.map": "/homeworks/static/js/main.785339ed.chunk.js.map",
-  "static/js/1.857a6bd2.chunk.js": "/homeworks/static/js/1.857a6bd2.chunk.js",
-  "static/js/1.857a6bd2.chunk.js.map": "/homeworks/static/js/1.857a6bd2.chunk.js.map",
-  "runtime~main.js": "/homeworks/static/js/runtime~main.5754b769.js",
-  "runtime~main.js.map": "/homeworks/static/js/runtime~main.5754b769.js.map",
-  "static/css/main.d9226e2b.chunk.css.map": "/homeworks/static/css/main.d9226e2b.chunk.css.map",
-  "index.html": "/homeworks/index.html",
-  "precache-manifest.81fb67e4ee97f8db3c80ecfb216bad99.js": "/homeworks/precache-manifest.81fb67e4ee97f8db3c80ecfb216bad99.js",
-  "service-worker.js": "/homeworks/service-worker.js"
+  "main.css": "/hws2-master/static/css/main.d9226e2b.chunk.css",
+  "main.js": "/hws2-master/static/js/main.059db61e.chunk.js",
+  "main.js.map": "/hws2-master/static/js/main.059db61e.chunk.js.map",
+  "static/js/1.857a6bd2.chunk.js": "/hws2-master/static/js/1.857a6bd2.chunk.js",
+  "static/js/1.857a6bd2.chunk.js.map": "/hws2-master/static/js/1.857a6bd2.chunk.js.map",
+  "runtime~main.js": "/hws2-master/static/js/runtime~main.fd6da9d7.js",
+  "runtime~main.js.map": "/hws2-master/static/js/runtime~main.fd6da9d7.js.map",
+  "static/css/main.d9226e2b.chunk.css.map": "/hws2-master/static/css/main.d9226e2b.chunk.css.map",
+  "index.html": "/hws2-master/index.html",
+  "precache-manifest.8626dcf8182ae3386f082d1645e94fd1.js": "/hws2-master/precache-manifest.8626dcf8182ae3386f082d1645e94fd1.js",
+  "service-worker.js": "/hws2-master/service-worker.js"
 }
